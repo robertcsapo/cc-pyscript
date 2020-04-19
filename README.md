@@ -37,6 +37,31 @@ rainbow_unicorn/
 2 directories, 9 files
 ```
 
+### Docker
+```
+docker run -it --rm -v $PWD:/cc-pyscript/export/ robertcsapo/cc-pyscript
+```
+
+Output is stored in ```export/``` folder
+```bash
+tree -a export/
+export/
+└── python_script
+    ├── .github
+    │   ├── ISSUE_TEMPLATE
+    │   │   ├── bug_report.md
+    │   │   └── feature_request.md
+    │   └── PULL_REQUEST_TEMPLATE.md
+    ├── CODE_OF_CONDUCT.md
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── README.md
+    ├── python_script.py
+    └── requirements.txt
+
+3 directories, 9 files
+```
+
 ## Features
 
 - [Cisco Sample Code License][CiscoSampleCodeLicense] and code headers
